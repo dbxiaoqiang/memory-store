@@ -1,0 +1,25 @@
+{
+  "name": "memory-store",
+  "version": "1.0.0",
+  "description": "simple key/value pair structor stroed in memory",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "babel src -d com -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-stringify-safe": "^5.0.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "jasmine": "^2.8.0"
+  }
+}
